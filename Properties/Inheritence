@@ -1,0 +1,12 @@
+💨Inheritance:
+To inherit a class, you simply incorporate the definition of one class into another by using the extends keyword.
+
+Syntax:- 
+class subclass-name extends superclass-name { 
+// body of class
+}
+•	You can only specify one superclass for any subclass that you create. 
+•	Java does not support the inheritance of multiple superclasses into a single subclass
+•	You can, as stated, create a hierarchy of inheritance in which a subclass becomes a superclass of another subclass. 
+•	However, no class can be a superclass of itself.
+•	Although a subclass includes all of the members of its superclass, it cannot access those members of the superclass that have been declared as private.
